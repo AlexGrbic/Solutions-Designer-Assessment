@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8534ff;
+  padding: 5px;
+  text-align: left;
+  height: 4rem;
+  align-items: center;
+  z-index: 10000;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+  margin: 0px;
+}
+
+.light {
+  color: #fff;
+  padding-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 5rem;
+}
+
+.horizontalLine {
+  width: 80%;
+  margin: 0px;
+}
+
+.taskInfo {
+  padding: 10px 10% 10px 10%;
+  margin: 0px;
+}
+
+.infoContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connectingLine {
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 6px solid white;
+  left: 50%;
+  height: 50px;
+  top: 0;
+}
+
+.categoryIcon {
+  padding: 20px;
+  filter: brightness(0) invert(1);
+}
+
+.taskCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.progressBarContainer {
+  width: 80%;
+  border-radius: 0.375rem;
+  border-width: 2px;
+}
+
+.progressval {
+  content: attr(value) "%";
+}
+
+progress {
+  width: 100%;
+  height: 50px;
+  -webkit-appearance: none;
+  border-radius: 50px;
+}
+
+progress::-webkit-progress-value {
+  background: #27ff7b;
+}
+
+.taskList {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.taskListItem {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.team {
+  padding: 30px 0px 10px 0px;
+  width: 500px;
+  background-color: #8534ff;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  border-radius: 25px;
+}
+
+.team-progress {
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+}
+
+.main {
+  display: fixed !important;
+  font-family: helvetica;
+  background-image: url("../images/coolBackground.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
